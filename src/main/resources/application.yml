@@ -1,0 +1,25 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/ssm?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: root
+  output:
+    ansi:
+      # 开启日志输出支持颜色显示
+      enabled: always
+  application:
+    name: demo-application
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto   # 设置id策略为数据库自增
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

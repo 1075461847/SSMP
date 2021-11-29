@@ -1,0 +1,6 @@
+myDemo 2021-11-28 19:09:49.590 INFO org.springframework.boot.StartupInfoLogger.logStarted Started BookMapperTest in 3.517 seconds (JVM running for 4.857) 
+myDemo 2021-11-28 19:09:50.134 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug ==>  Preparing: SELECT id,type,name,description FROM book 
+myDemo 2021-11-28 19:09:50.172 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug ==> Parameters:  
+myDemo 2021-11-28 19:09:50.210 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug <==      Total: 7 
+myDemo 2021-11-28 19:09:50.239 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closing ... 
+myDemo 2021-11-28 19:09:50.251 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closed 
