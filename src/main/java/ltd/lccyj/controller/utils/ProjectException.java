@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class ProjectException {
 
-    //异常处理
+    /**
+     * 异常处理
+     * @param ex  异常对象
+     * @return  处理后的结果对象
+     */
     @ExceptionHandler
     public Result doException(Exception ex){
         ex.printStackTrace();

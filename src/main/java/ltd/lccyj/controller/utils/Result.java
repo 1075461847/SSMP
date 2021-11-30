@@ -13,7 +13,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Result {
-    private boolean flag;  // 结果标志
-    private Object data;  //数据
-    private String message; //消息
+    /**
+     * 结果标志
+     */
+    private boolean flag;
+    /**
+     * 数据
+     */
+    private Object data;
+    /**
+     * 消息
+     */
+    private String message;
 }
